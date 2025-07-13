@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0056b8;
+    background: linear-gradient(90deg, rgba(0, 86, 184, 1) 0%, rgba(110, 187, 255, 1) 50%, rgba(217, 239, 255, 1) 100%);
+}
+
+.cal {
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 50px;
+    text-shadow: -8px 8px 10px rgba(0, 55, 102, 0.786);
+}
+
+.container {
+    width: min(60%, 28.12em);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container * {
+    border: none;
+    outline: none;
+}
+
+.input-wrapper {
+    background-color: #ffffff;
+    padding: 1.35em 1.25em;
+    border-radius: 25px;
+    box-shadow: 0 0.93em 1.25em rgba(0, 55, 102, 0.786);
+    margin-bottom: 3.12em;
+    display: grid;
+    grid-template-columns: 10fr 3fr;
+    gap: 1em;
+}
+
+button {
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+input {
+    background-color: #eeeeff;
+    color: #1d1d1d;
+    padding: 1.2em 1.25em;
+    font-size: 0.87em;
+}
+
+button {
+    color: #ffffff;
+    background-color: #305cad;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.output-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.output-wrapper div {
+    height: 110px;
+    width: 110px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #080808;
+    display: grid;
+    place-items: center;
+    padding: 1.25em 0;
+    box-shadow: 0 0.93em 1.25em rgba(0, 55, 102, 0.786);
+}
+
+span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 17px;
+    color: #1a2028;
+    font-weight: 500;
+}
+
+#date-input {
+    width: 100%;
+    height: 100%;
+    background-color: #adcdf4;
+    padding: 22px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
